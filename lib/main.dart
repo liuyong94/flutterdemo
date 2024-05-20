@@ -6,6 +6,8 @@ import 'package:flutterdemo/containerdemo.dart';
 import 'package:flutterdemo/imagedemo.dart';
 import 'package:flutterdemo/textdemo.dart';
 
+import 'ListViewDemo.dart';
+
 void main() {
   // runApp(const MyApp());
 
@@ -21,7 +23,10 @@ void main() {
       // body: const ClipOverDemo(),
       // body: const CircleAvatarDemo(),
       // body: const LocalImageDemo(),
-      body: const IconDemo(),
+      // body: const IconDemo(),
+      // body: const ListViewDemo(),
+      // body: const ListViewDemo2(),
+      body: const ListViewDemo3(),
     ),
   ));
 }
