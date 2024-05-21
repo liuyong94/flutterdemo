@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterdemo/AspectRatioDemo.dart';
 import 'package:flutterdemo/CircleAvatarDemo.dart';
 import 'package:flutterdemo/ClipOverDemo.dart';
 import 'package:flutterdemo/ColumnDemo.dart';
@@ -8,6 +9,7 @@ import 'package:flutterdemo/GridViewDemo.dart';
 import 'package:flutterdemo/IconDemo.dart';
 import 'package:flutterdemo/PaddingDemo.dart';
 import 'package:flutterdemo/RowDemo.dart';
+import 'package:flutterdemo/StackDemo.dart';
 import 'package:flutterdemo/containerdemo.dart';
 import 'package:flutterdemo/imagedemo.dart';
 import 'package:flutterdemo/textdemo.dart';
@@ -49,7 +51,15 @@ void main() {
       // body: const FlexDemo(),
       // body: const FlexDemo2(),
       // body: const FlexDemo3(),
-      body: const FlexDemo4(),
+      // body: const FlexDemo4(),
+      // body: const StackDemo(),
+      // body: const StackDemo2(),
+      // body: const StackDemo3(),
+      // body: const StackDemo4(),
+      // body: const StackDemo5(),
+      // body: const StackDemo6(),
+      // body: const AspectRatioDemo(),
+      body: AspectRatioDemo2(),
     ),
   ));
 }
