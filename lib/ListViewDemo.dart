@@ -121,3 +121,93 @@ class ListViewDemo3 extends StatelessWidget {
     );
   }
 }
+
+class ListViewDemo4 extends StatelessWidget {
+
+  const ListViewDemo4({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 180,
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        children: <Widget>[
+          Container(
+            width: 180.0,
+            color: Colors.red,
+          ),
+          Container(
+            width: 180.0,
+            color: Colors.orange,
+            child: Column(
+              children: <Widget>[
+                Image.network("https://www.itying.com/images/flutter/1.png"),
+                const Text('我是一个文本')
+              ],
+            ),
+          ),
+          Container(
+            width: 180.0,
+            color: Colors.blue,
+          ),
+          Container(
+            width: 180.0,
+            color: Colors.deepOrange,
+          ),
+          Container(
+            width: 180.0,
+            color: Colors.deepPurpleAccent,
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+
+class DynamicListViewDemo extends StatelessWidget {
+
+  const DynamicListViewDemo({Key? key}) : super(key: key);
+
+  List<Widget> _initListView(){
+    List<Widget> list=[];
+    for (var i = 0; i < 10; i++) {
+      list.add(
+          const ListTile(
+            title: Text("我是一个列表"),
+          )
+      );
+    }
+    return list;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: _initListView(),
+    );
+  }
+}
+
+class DynamicListViewDemo2 extends StatelessWidget {
+
+  List list = [];
+
+  DynamicListViewDemo2({Key? key}) : super(key: key) {
+    for (var i = 0; i < 10; i++) {
+      list.add("我是一个列表--$i");
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+        itemCount: list.length,
+        itemBuilder: (context, index) {
+          return ListTile(
+            title: Text("${list[index]}"),
+          );
+        });
+  }
+}
