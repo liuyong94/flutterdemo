@@ -3,6 +3,7 @@ import 'package:flutterdemo/CircleAvatarDemo.dart';
 import 'package:flutterdemo/ClipOverDemo.dart';
 import 'package:flutterdemo/ColumnDemo.dart';
 import 'package:flutterdemo/DoubleInfinityDemo.dart';
+import 'package:flutterdemo/FlexDemo.dart';
 import 'package:flutterdemo/GridViewDemo.dart';
 import 'package:flutterdemo/IconDemo.dart';
 import 'package:flutterdemo/PaddingDemo.dart';
@@ -44,7 +45,11 @@ void main() {
       // body: const PaddingDemo(),
       // body: const RowDemo(),
       // body: const ColumnDemo(),
-      body: const DoubleInfinityDemo(),
+      // body: const DoubleInfinityDemo(),
+      // body: const FlexDemo(),
+      // body: const FlexDemo2(),
+      // body: const FlexDemo3(),
+      body: const FlexDemo4(),
     ),
   ));
 }
