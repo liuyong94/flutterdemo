@@ -14,6 +14,7 @@ import 'package:flutterdemo/containerdemo.dart';
 import 'package:flutterdemo/imagedemo.dart';
 import 'package:flutterdemo/textdemo.dart';
 
+import 'CardDemo.dart';
 import 'ListViewDemo.dart';
 
 void main() {
@@ -29,7 +30,7 @@ void main() {
       // body: const ImageDemo(),
       // body: const CircleImage(),
       // body: const ClipOverDemo(),
-      // body: const CircleAvatarDemo(),
+      body: const CircleAvatarDemo(),
       // body: const LocalImageDemo(),
       // body: const IconDemo(),
       // body: const ListViewDemo(),
@@ -59,7 +60,9 @@ void main() {
       // body: const StackDemo5(),
       // body: const StackDemo6(),
       // body: const AspectRatioDemo(),
-      body: AspectRatioDemo2(),
+      // body: AspectRatioDemo2(),
+      // body: const CardDemo(),
+      // body: const CardDemo2(),
     ),
   ));
 }
