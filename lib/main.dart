@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutterdemo/CircleAvatarDemo.dart';
 import 'package:flutterdemo/ClipOverDemo.dart';
+import 'package:flutterdemo/ColumnDemo.dart';
+import 'package:flutterdemo/DoubleInfinityDemo.dart';
 import 'package:flutterdemo/GridViewDemo.dart';
 import 'package:flutterdemo/IconDemo.dart';
+import 'package:flutterdemo/PaddingDemo.dart';
+import 'package:flutterdemo/RowDemo.dart';
 import 'package:flutterdemo/containerdemo.dart';
 import 'package:flutterdemo/imagedemo.dart';
 import 'package:flutterdemo/textdemo.dart';
@@ -36,7 +40,11 @@ void main() {
       // body: const GridViewDemo3(),
       // body: const GridViewDemo4(),
       // body: const GridViewDemo5(),
-      body: const GridViewDemo6(),
+      // body: const GridViewDemo6(),
+      // body: const PaddingDemo(),
+      // body: const RowDemo(),
+      // body: const ColumnDemo(),
+      body: const DoubleInfinityDemo(),
     ),
   ));
 }
