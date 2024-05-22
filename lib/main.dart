@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterdemo/AspectRatioDemo.dart';
+import 'package:flutterdemo/ButtonDemo.dart';
 import 'package:flutterdemo/CircleAvatarDemo.dart';
 import 'package:flutterdemo/ClipOverDemo.dart';
 import 'package:flutterdemo/ColumnDemo.dart';
@@ -30,7 +31,7 @@ void main() {
       // body: const ImageDemo(),
       // body: const CircleImage(),
       // body: const ClipOverDemo(),
-      body: const CircleAvatarDemo(),
+      // body: const CircleAvatarDemo(),
       // body: const LocalImageDemo(),
       // body: const IconDemo(),
       // body: const ListViewDemo(),
@@ -63,6 +64,16 @@ void main() {
       // body: AspectRatioDemo2(),
       // body: const CardDemo(),
       // body: const CardDemo2(),
+      // body: const ElevatedButtonDemo(),
+      // body: const TextButtonDemo(),
+      // body: const OutlinedButtonDemo(),
+      body: const OutlinedButtonDemo2(),
+      // body: const IconButtonDemo(),
+      // body: const ButtonListDemo(),
+      // body: const ElevatedButtonDemo2(),
+      // body: const ElevatedButtonDemo3(),
+      // body: const ElevatedButtonDemo4(),
+      // body: const ElevatedButtonDemo5(),
     ),
   ));
 }
