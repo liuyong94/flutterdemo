@@ -11,6 +11,8 @@ import 'package:flutterdemo/IconDemo.dart';
 import 'package:flutterdemo/PaddingDemo.dart';
 import 'package:flutterdemo/RowDemo.dart';
 import 'package:flutterdemo/StackDemo.dart';
+import 'package:flutterdemo/StatefulWidgetDemo.dart';
+import 'package:flutterdemo/WrapDemo.dart';
 import 'package:flutterdemo/containerdemo.dart';
 import 'package:flutterdemo/imagedemo.dart';
 import 'package:flutterdemo/textdemo.dart';
@@ -67,13 +69,18 @@ void main() {
       // body: const ElevatedButtonDemo(),
       // body: const TextButtonDemo(),
       // body: const OutlinedButtonDemo(),
-      body: const OutlinedButtonDemo2(),
+      // body: const OutlinedButtonDemo2(),
       // body: const IconButtonDemo(),
       // body: const ButtonListDemo(),
       // body: const ElevatedButtonDemo2(),
       // body: const ElevatedButtonDemo3(),
       // body: const ElevatedButtonDemo4(),
       // body: const ElevatedButtonDemo5(),
+      // body: const WrapDemo(),
+      // body: const WrapDemo2(),
+      // body: const WrapDemo3(),
+      // body: const StatefulWidgetDemo(),
+      body: const StatefulWidgetDemo2(),
     ),
   ));
 }
