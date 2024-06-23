@@ -7,6 +7,7 @@ import 'package:flutter/cupertino.dart';
 2、把 MaterialPageRoute替换成 CupertinoPageRoute
 */
 
+import '../tabs/dialog.dart';
 import '../tabs2.dart';
 import '../shop.dart';
 import '../user/login.dart';
@@ -22,6 +23,7 @@ Map routes = {
   "/registerSecond": (contxt) => const RegisterSecondPage(),
   "/registerThird": (contxt) => const RegisterThirdPage(),
   "/shop": (contxt, {arguments}) => ShopPage(arguments: arguments),
+  "/dialog": (contxt) => const DialogPage(),
 };
 
 //2、配置onGenerateRoute  固定写法  这个方法也相当于一个中间件，这里可以做权限判断

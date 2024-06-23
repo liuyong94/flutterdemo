@@ -10,8 +10,17 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text("首页"),
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/dialog");
+              },
+              child: const Text("Dialog演示")),
+        ],
+      ),
     );
   }
 }
